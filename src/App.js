@@ -5,7 +5,6 @@ import Employees from './components/Employees';  // Importamos el componente Emp
 const App = () => {
   return (
     <div className="App">
-      <h1>Bienvenido a la empresa</h1>
       <Employees />  {/* Aquí usamos el componente Employees */}
     </div>
   );
